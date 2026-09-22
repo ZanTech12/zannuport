@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://zannu.bimtechsolutions.com'; // Replace with your actual domain later
+  const baseUrl = 'https://zannu.bimtechsolutions.com.ng'; // Replace with your actual domain later
 
   return {
     rules: {

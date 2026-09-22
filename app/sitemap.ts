@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://zannu.bimtechsolutions.com'; // Replace with your actual Vercel/Custom domain later
+  const baseUrl = 'https://zannu.bimtechsolutions.com.ng'; // Replace with your actual Vercel/Custom domain later
   
   return [
     {
