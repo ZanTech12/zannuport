@@ -5,6 +5,14 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+  {
+    rules: {
+      // Turn off the warning for using standard <img> tags (required for html2canvas in CvDocument)
+      "@next/next/no-img-element": "off",
+      // Turn off the warning for using 'any' type (used for dynamic Lucide icons in modals)
+      "@typescript-eslint/no-explicit-any": "off",
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
